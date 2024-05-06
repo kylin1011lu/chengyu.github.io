@@ -62,7 +62,7 @@
       //   }
       // }
       // return val === null ? '' : val;
-      return this[attr];
+      return this.elem[attr];
     },
 
     /**
