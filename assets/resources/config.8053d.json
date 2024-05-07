@@ -1,0 +1,1 @@
+{"importBase":"import","nativeBase":"native","name":"resources","deps":[],"uuids":["20+lyZOlBJ56sxPx0kAd+n"],"paths":{"0":["audio/bg",0]},"scenes":{},"packs":{},"versions":{"import":[0,"c1c2c"],"native":[0,"9c0b8"]},"redirect":[],"debug":false,"extensionMap":{},"hasPreloadScript":true,"types":["cc.AudioClip"]}
