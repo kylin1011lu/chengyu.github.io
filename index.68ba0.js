@@ -1,4 +1,4 @@
-System.register(["./application.cd0e5.js"], function (_export, _context) {
+System.register(["./application.d5ec3.js"], function (_export, _context) {
   "use strict";
 
   var Application, gameDiv, canvas, $p, bcr, realHeight, realWidth, bodyWidth, bodyHeight, w, application;
@@ -23,8 +23,8 @@ System.register(["./application.cd0e5.js"], function (_export, _context) {
   }
 
   return {
-    setters: [function (_applicationCd0e5Js) {
-      Application = _applicationCd0e5Js.Application;
+    setters: [function (_applicationD5ec3Js) {
+      Application = _applicationD5ec3Js.Application;
     }],
     execute: function () {
       gameDiv = document.getElementById('GameDiv');
