@@ -1,4 +1,4 @@
-System.register(["./application.ba1f9.js"], function (_export, _context) {
+System.register(["./application.ae7d9.js"], function (_export, _context) {
   "use strict";
 
   var Application, gameDiv, canvas, $p, bcr, realHeight, realWidth, resize, application;
@@ -23,8 +23,8 @@ System.register(["./application.ba1f9.js"], function (_export, _context) {
   }
 
   return {
-    setters: [function (_applicationBa1f9Js) {
-      Application = _applicationBa1f9Js.Application;
+    setters: [function (_applicationAe7d9Js) {
+      Application = _applicationAe7d9Js.Application;
     }],
     execute: function () {
       gameDiv = document.getElementById('GameDiv');
