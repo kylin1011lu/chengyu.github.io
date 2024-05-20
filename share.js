@@ -134,7 +134,7 @@
             left = window.innerWidth / 2 - popWidth / 2 + window.screenX,
             top = window.innerHeight / 2 - popHeight / 2 + window.screenY,
             popParams = 'scrollbars=no, width=' + popWidth + ', height=' + popHeight + ', top=' + top + ', left=' + left,
-            newWindow = window.open(sharer.shareUrl, '', popParams);
+            newWindow = window.open(sharer.shareUrl, '_blank', popParams);
   
           if (window.focus) {
             newWindow.focus();
