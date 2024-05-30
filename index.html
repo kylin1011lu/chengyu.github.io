@@ -56,15 +56,28 @@
   <script src="share.js" charset="utf-8"> </script>
 
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7XGD61SEFP"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMCHCW0E1G"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
       dataLayer.push(arguments);
     }
+
+    // https://www.analyticsmania.com/post/get-google-analytics-client-id/
+    function get_ga_clientid() {
+      var cookie = {};
+      document.cookie.split(';').forEach(function (el) {
+        var splitCookie = el.split('=');
+        var key = splitCookie[0].trim();
+        var value = splitCookie[1];
+        cookie[key] = value;
+      });
+      return cookie["_ga"].substring(6) + ".";
+    }
+
     gtag('js', new Date());
-    gtag('config', 'G-7XGD61SEFP');
+    gtag('config', 'G-LMCHCW0E1G');
   </script>
 
   
@@ -78,7 +91,7 @@
 <script src="src/import-map.d97b8.json" type="systemjs-importmap" charset="utf-8"> </script>
 
 <script>
-    System.import('./index.30d18.js').catch(function(err) { console.error(err); })
+    System.import('./index.fc62c.js').catch(function(err) { console.error(err); })
 </script>
 
 
